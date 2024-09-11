@@ -31,5 +31,6 @@ export const UserRegistration = async (name, email, resume) => {
         return data;
     } catch (error) {
         console.error(error.message);
+        return error.message;
     }
 };

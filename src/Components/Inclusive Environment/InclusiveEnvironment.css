@@ -1,0 +1,79 @@
+
+.inclusive-environment {
+    max-width: 1000px; 
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; 
+    color: #f5f5f5; 
+    border-radius: 8px; 
+}
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff; 
+    letter-spacing: 1px;
+}
+
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cccccc; 
+    margin-bottom: 40px;
+}
+
+
+.programmes {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 40px;
+    text-align: left;
+    max-width: 1200px;
+}
+
+
+.programme {
+    flex: 1;
+    background-color: #111111; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.programme:hover {
+    background-color: #222222; 
+    transform: translateY(-5px); 
+}
+
+
+.programme-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00bcd4; 
+    margin-bottom: 10px;
+    border-bottom: 2px solid #00aaff; 
+    padding-bottom: 5px;
+}
+
+
+.programme-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #aaaaaa; 
+}
+
+
+@media (max-width: 768px) {
+    .programmes {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .programme {
+        margin: 0 auto; 
+    }
+}

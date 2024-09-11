@@ -1,0 +1,82 @@
+
+body, .core-values-section {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.core-values-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #000000; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.core-values-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00bcd4; 
+}
+
+.core-values-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #c4c4c4; 
+}
+
+.core-values-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.core-values-list li {
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.core-values-list li span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.icon-heart::before {
+  content: "❤️"; 
+}
+
+.icon-flower::before {
+  content: "🌻"; 
+}
+
+.icon-smile::before {
+  content: "🤹"; 
+}
+
+.icon-courtesy::before {
+  content: "🙋"; 
+}
+
+.icon-hammer::before {
+  content: "🔨"; 
+}
+
+.icon-hands::before {
+  content: "🙏"; 
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-section {
+  padding-right: 20px; 
+}
+
+.image-section {
+  padding-left: 20px; 
+}

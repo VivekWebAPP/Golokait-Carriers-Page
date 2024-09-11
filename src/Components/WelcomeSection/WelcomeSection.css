@@ -1,0 +1,43 @@
+.welcome-container {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    border-radius: 0 0 50% 50%;
+    
+  }
+  
+  .title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .getStartedButton {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .talkToSalesButton {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+.body{
+  color: grey;
+}

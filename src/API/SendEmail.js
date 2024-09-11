@@ -1,9 +1,9 @@
 export const sendEmail = async (email, subject, text) => {
     try {
-        console.log(email, subject, text);
+        console.log(email,subject,text);
         const response = await fetch("https://golaka-it-carrier-page.onrender.com/resume/send-email", {
             method: "POST",
-            credentials: 'include',
+            mode: "cors",
             headers: {
                 "Content-Type": "application/json",
             },

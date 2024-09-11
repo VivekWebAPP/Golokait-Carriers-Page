@@ -15,7 +15,7 @@ export const UserRegistration = async (name, email, resume) => {
 
         const response = await fetch('https://golaka-it-carrier-page.onrender.com/resume/upload', {
             method: "POST",
-            mode: "cors",
+            mode: "no-cors",
             headers: {
                 "Content-Type": "application/json",
             },

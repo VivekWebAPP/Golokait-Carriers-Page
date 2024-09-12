@@ -4,7 +4,6 @@ import {sendEmail} from '../../API/SendEmail.js';
 export const UserRegest = (name, email, resume) => {
     return async (dispatch) => {
         try {
-            console.log('Action Creater',name, email, resume)
             const res = await UserRegistration(name, email, resume);
             dispatch({
                 type: "REGESTRATION_SUCCESS",

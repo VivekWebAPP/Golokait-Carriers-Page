@@ -35,6 +35,7 @@ const CarrierOpportunities = () => {
   const handleOnSubmit = async (e) => {
     e.preventDefault();
     dispatch(action.UserRegest(userRegistration.name, userRegistration.email, userRegistration.resume));
+    console.log(userRegistered);
 
     if (userRegistered && userRegistered.response) {
       console.log("User registered:", userRegistered);

@@ -23,7 +23,6 @@ function App() {
     <>
       {location.pathname !== '/registered' && (
         <>
-          <Banner />
           <NavBar />
           <Careers />
           <FeatureSection />

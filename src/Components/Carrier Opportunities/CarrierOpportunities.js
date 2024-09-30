@@ -46,7 +46,7 @@ const CarrierOpportunities = () => {
   };
 
   return (
-    <div className="carrier-opportunities-container dark-theme">
+    <div className="carrier-opportunities-container dark-theme" id="internShipsSection">
       <div className="carrier-banner">
         <h1>Career Opportunities</h1>
         <p>

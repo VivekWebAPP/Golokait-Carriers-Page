@@ -1,13 +1,14 @@
 import React from 'react';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import './Navbar.css';
+import image from '../../asscets/logo.jpeg';
 
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light custom-navbar">
             <div className="container-fluid px-5">
                 <a className="navbar-brand navbar-brand-custom" href="#">
-                    LOGO
+                    <img src={image} alt="Logo" className='navbar-logo'/>
                 </a>
                 <button
                     className="navbar-toggler"
@@ -44,13 +45,9 @@ const NavBar = () => {
                         </li>
                     </ul>
                     <div className="d-flex align-items-center">
-                        <button className="btn btn-outline-primary me-2 custom-button">
-                            Start a Fundraiser
-                        </button>
                         <button className="btn btn-outline-secondary me-2 custom-button">
                             Sign In
                         </button>
-                        <button className="btn btn-success custom-button">Help Sumit</button>
                     </div>
                 </div>
             </div>

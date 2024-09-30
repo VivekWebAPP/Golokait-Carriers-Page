@@ -11,8 +11,8 @@ function Careers() {
                 <div className="section-description">
                     Explore remote-friendly, flexible opportunities and join our mission to make work life simpler, more pleasant, and more productive.
                 </div>
-                <button className="custom-career-button">VIEW CAREERS</button>
-                <a href="#" className="internship-link">Looking for internships?</a>
+                <a href="#internShipsSection"><button className="custom-career-button">VIEW CAREERS</button></a>
+                <a href="#internShipsSection" className="internship-link">Looking for internships?</a>
             </div>
             <div className="illustration-container">
                 <div className="illustration">
